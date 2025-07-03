@@ -1,0 +1,59 @@
+.confirm-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background-color: #fdf7f1;
+  min-height: 100vh;
+}
+
+.confirm-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+.confirm-box h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #4b3c35;
+}
+
+.confirm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.confirm-form input,
+.confirm-form select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.confirm-btn {
+  padding: 12px;
+  background-color: #3b2b2b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background-color: black;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
