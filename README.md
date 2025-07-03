@@ -1,12 +1,47 @@
-# React + Vite
+# ☕ Coffee Shop Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive coffee shop web application built with React. This app allows users to explore the coffee menu, add items to their cart, and sign up to confirm their orders.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📋 **Menu Display** – Browse a curated list of coffee items with descriptions and prices.
+- 🛒 **Add to Cart** – Add coffee items to a shopping cart and manage quantities.
+- 📝 **Sign Up** – Collect customer details (name, phone number, payment mode) before confirming an order.
+- 💻 **Responsive Design** – Optimized for desktops, tablets, and mobile screens.
+- ⚙️ **Component-Based Structure** – Organized, reusable React components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧾 Tech Stack
+
+- **Frontend:** React, Vite  
+- **Styling:** CSS (or Tailwind CSS, if used)  
+- **Routing:** React Router DOM  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🗂 Project Structure
+
+<pre>
+coffee-shop/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Menu.jsx
+│   │   ├── CartPage.jsx
+│   │   ├── Signup.jsx
+│   │   └── ...other components
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── README.md
+├── package.json
+└── vite.config.js
+</pre>
+
+---
+
